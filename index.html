@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/cookie.js" charset="utf-8"></script>
+
 </head>
 <body>
   <div class="cookie-bar">
@@ -49,8 +51,10 @@
             </p>
           </div>
           <div class="">
-            <input type="radio" name="setting1" value="" checked="checked">Yes
-            <input type="radio" name="setting1" value="">No
+            <select id="user-tracking">
+              <option value="true" selected>Yes</option>
+              <option value="false">No</option>
+            </select>
           </div>
         <!-- </div>
         <div class="cookie-col col-2"> -->
@@ -62,8 +66,10 @@
             </p>
           </div>
           <div class="">
-            <input type="radio" name="setting2" value="" checked="checked">Yes
-            <input type="radio" name="setting2" value="">No
+            <select id="campains">
+              <option value="true" selected>Yes</option>
+              <option value="false">No</option>
+            </select>
           </div>
         <!-- </div>
         <div class="cookie-col col-3"> -->
@@ -75,8 +81,10 @@
             </p>
           </div>
           <div class="">
-            <input type="radio" name="setting3" value=""checked="checked">Yes
-            <input type="radio" name="setting3" value="">No
+            <select id="user-settings">
+              <option value="true" selected>Yes</option>
+              <option value="false">No</option>
+            </select>
           </div>
         <!-- </div> -->
         <hr>
@@ -98,14 +106,10 @@
       </div>
     </div>
   </div>
-
-
-
-
+</div>
 
   <!-- JQUERY -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
   <!-- SCRIPTS -->
   <script src="js/main.js" charset="utf-8"></script>
 </body>
