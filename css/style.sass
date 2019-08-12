@@ -1,0 +1,77 @@
+@mixin reset
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+*
+  @include reset
+
+a,a:visited,a:active,a:hover
+  text-decoration: none
+  color: inherit
+
+
+body
+  font-family: sans-serif
+  background: #8cf4de
+.cookie-bar
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  background: #111
+  padding: 25px 60px
+  display: none
+  .cookie-text
+    width: 60%
+    display: inline-block
+    color: #ddd
+    font-size: 17px
+  .cookie-buttons
+    width: 39%
+    display: inline-block
+    @include reset
+    .cookie-btn
+      padding: 10px 20px
+      color: #fff
+      opacity: .7
+      transition: .4s
+      &.cookie-btn-grey
+        background: #868686
+      &.cookie-btn-green
+        background: #30b135
+      &.cookie-btn-orange
+        background: #f6a926
+      &:hover
+        opacity: 1
+  .cookie-settings
+    color: #ddd
+    padding-top: 60px
+    padding-bottom: 0
+    display: none
+    h3
+      margin: 15px 0
+    h4
+      margin: 10px 0
+    p
+      margin: 10px 0
+    ul
+      margin-left: 20px
+    // .cookie-col
+    //   width: 30%
+    //   display: inline-block
+    //   .cookie-col-left
+    //     width: 20%
+    //     display: inline-block
+    //   .cookie-col-right
+    //     width: 75%
+    //     display: inline-block
+    hr
+      border: none
+      border-bottom: 1px solid #666
+      width: 50%
+      margin: 20px
+
+
+.container
+  padding: 20px 120px

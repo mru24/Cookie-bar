@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:visited, a:active, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  background: #8cf4de;
+}
+
+.cookie-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  padding: 25px 60px;
+  display: none;
+}
+
+.cookie-bar .cookie-text {
+  width: 60%;
+  display: inline-block;
+  color: #ddd;
+  font-size: 17px;
+}
+
+.cookie-bar .cookie-buttons {
+  width: 39%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cookie-bar .cookie-buttons .cookie-btn {
+  padding: 10px 20px;
+  color: #fff;
+  opacity: .7;
+  transition: .4s;
+}
+
+.cookie-bar .cookie-buttons .cookie-btn.cookie-btn-grey {
+  background: #868686;
+}
+
+.cookie-bar .cookie-buttons .cookie-btn.cookie-btn-green {
+  background: #30b135;
+}
+
+.cookie-bar .cookie-buttons .cookie-btn.cookie-btn-orange {
+  background: #f6a926;
+}
+
+.cookie-bar .cookie-buttons .cookie-btn:hover {
+  opacity: 1;
+}
+
+.cookie-bar .cookie-settings {
+  color: #ddd;
+  padding-top: 60px;
+  padding-bottom: 0;
+  display: none;
+}
+
+.cookie-bar .cookie-settings h3 {
+  margin: 15px 0;
+}
+
+.cookie-bar .cookie-settings h4 {
+  margin: 10px 0;
+}
+
+.cookie-bar .cookie-settings p {
+  margin: 10px 0;
+}
+
+.cookie-bar .cookie-settings ul {
+  margin-left: 20px;
+}
+
+.cookie-bar .cookie-settings hr {
+  border: none;
+  border-bottom: 1px solid #666;
+  width: 50%;
+  margin: 20px;
+}
+
+.container {
+  padding: 20px 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
